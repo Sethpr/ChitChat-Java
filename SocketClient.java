@@ -30,17 +30,17 @@ public class SocketClient extends JFrame implements ActionListener, Runnable {
 
         textArea.setBackground(new Color(0, 0, 0));
 
-/*
-         JMenu helpMenu = new JMenu("Help");
-        JMenuItem update = new JMenuItem("Update Information");
-        JMenuItem connect_List = new JMenuItem("Visitor List");
 
-        helpMenu.add(update);
-        helpMenu.add(connect_List);
+//        JMenu helpMenu = new JMenu("Help");
+//        JMenuItem update = new JMenuItem("Update Information");
+//        JMenuItem connect_List = new JMenuItem("Visitor List");
+//
+//        helpMenu.add(update);
+//        helpMenu.add(connect_List);
+//
+//        menuBar.add(helpMenu);
+//        setJMenuBar(menuBar);
 
-        menuBar.add(helpMenu);
-        setJMenuBar(menuBar);
-*/
         getContentPane().add(jp, "Center");
         input_Text.setText("Enter your Message:");
         input_Text.setToolTipText("Enter your Message");

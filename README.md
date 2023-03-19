@@ -1,15 +1,16 @@
-# ChitChat
-A simple group chat Application using Java Socket Programming. A simple GUI demonstration on localhost is shown below... This can be implemented over LAN connected machines by using their IP Address.. #socket #socketProgramming #chat #javaprogramminglanguage #groupchat
-To watch how it is implemented click the link below:
- 
-https://www.linkedin.com/posts/deysarkarswarup_socket-socketprogramming-chat-activity-6581552689602236416-vMxm
+# Basic instructions
+- run program
+- enter ip (commonly localhost)
+- enter username
+- type in chat with all the other folks in chat!
 
-Starting with the code as is, make additions to it to increase its functionality.
+# Commands
+- `/list` prints out a list of current users
+- `/sports` prints out a very accurate update on your favorite sports team
+- `/weather` gives you accurate local weather
+- `/stock` prints out the latest in the stock market*
 
-## Additions
 
-- Add documentation about how to use this app.
-- Add logging to the server to log all connections and messages to some loggin sink (a file or a DB).
-- Add a current user list, and the UI required to show it (either a chat command or a UI widget)
-- Add a chat bot of some kind which can supply stock market news or details, sports headlines, or weather info.
-- Add a way to message images
+
+
+*I am not responsible for any poor investments you make based off this info
